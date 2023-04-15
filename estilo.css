@@ -1,0 +1,217 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    background-color: #FFD900;
+    height: 80px;
+}
+
+header img{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+#info{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 40vw;
+}
+
+#divtexto{
+    background: #514988;
+    padding:  20px 35px 0px 35px;
+}
+
+
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.0rem;
+    line-height: 5.5rem;
+    align-items: center;
+    text-align: center;
+    color: #F3C61F;
+}
+
+h2{
+    color: white;
+    font-style: bold;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.0rem;
+}
+
+p{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 4.0rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#contador{
+    display: flex;
+    padding: 10px 10px 0px 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#contador h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.0rem;
+    line-height: 8.5rem;
+    align-items: center;
+    text-align: center;
+    color: #514988;
+}
+
+#count_video h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.0srem;
+    align-items: center;
+    text-align: center;
+    color: #E33881;
+    margin-top: -10px;
+}
+
+#video{
+    display: grid;
+    justify-content: center;
+    padding: 15px;
+    width: 96%;
+}
+
+video{
+    width: 100%;
+}
+
+
+button{
+    background-color: #514988;
+    color: white;
+    padding: 3.0rem 7.0rem;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 4.2rem;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+button:hover{
+    background-color:#F3C61F;
+    border: 0px;
+}
+
+#ingressos{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    color: #F3C61F;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.texto{
+    height: 50px;
+}
+
+#card img{
+    width: 20%;
+}
+
+@media (max-width:1242px){
+    html{
+        font-size: 50%;
+    }
+    p{
+        line-height: 4.5rem;
+    }
+}
+
+
+
+@media (max-width:968px){
+    html{
+        font-size: 50%;
+    }
+    p{
+        line-height: 4.8rem;
+    }
+}
+
+@media (max-width:796px){
+    html{
+        font-size: 40%;
+    }
+    p{
+        line-height: 3.0rem;
+    }
+    button{
+        padding: 2.0rem 5.0rem;
+        font-size: 4.0rem;
+        align-items: center;
+        margin-left: 2.5rem;
+    }
+    #divtexto{
+        padding: 20px 20px 10px 20px;
+}
+}
+
+@media (max-width:796px){
+    html{
+        font-size: 40%;
+    }
+    p{
+        line-height: 3.0rem;
+    }
+    button{
+        padding: 2.0rem 5.0rem;
+        font-size: 4.0rem;
+        align-items: center;
+        margin-left: 2.5rem;
+    }
+}
+
+@media (max-width:700px){
+    #info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #info #contador #video{
+        order: -1;
+    }
+    
+    #ingressos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    button{
+        margin-top: 10px;
+    }
+}
