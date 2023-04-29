@@ -1,5 +1,15 @@
 # Resposividade
 
+
+Utilizei 
+html{
+    font-size: 62.5%;}
+    
+Porque ai as medidas do rem, seguirão o padrão de conversão  16px => 1.6rem, o que facilita muito a vida.
+
+
+
+
 ## CSS Units
 
 unidades de medidas do CSS
